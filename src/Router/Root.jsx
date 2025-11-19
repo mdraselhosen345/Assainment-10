@@ -5,8 +5,8 @@ import Footer from '../component/Footer/Footer';
 
 const Root = () => {
     return (
-        <div className='mx-auto w-[1250px] text-center'>
-            <Navber></Navber>
+        <div>
+            <Navber className='mx-auto w-[1250px] text-center'></Navber>
             <Outlet></Outlet>
             <Footer></Footer>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navber = () => {
+   
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -22,7 +23,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Login</a>
+    <button className="btn bg-[#FF6C36] font-bold text-[#4b4848] pb-2 pt-1 pl-13 pr-13 rounded-tl-3xl rounded-br-3xl text-xl hover:bg-transparent hover:border-white hover:text-white">Login</button>
   </div>
 </div>
         </div>

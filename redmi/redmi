@@ -1,0 +1,44 @@
+// import { Component, StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
+// import './index.css'
+// import App from './App.jsx'
+// import { createBrowserRouter, Router, RouterProvider, } from "react-router-dom";
+// import Root from './Router/Root.jsx';
+// import Banner from './component/Banner/Banner.jsx';
+// import Title from './component/Title/Title.jsx'
+// import Card from './component/Card/Card.jsx';
+// import Home from './component/Home.jsx/Home.jsx';
+// import ErrorPage from './component/ErrorPage/ErrorPage.jsx';
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     Component: Root,
+//     errorElement: <ErrorPage />,
+//     children: [
+//       {
+//             index: true,
+//            Component: Home
+//       },
+//       {
+//         path: "banner",
+//         Component: Banner,
+//       },
+//       {
+//         path: "title",
+//         Component: Title,
+//       },
+//       {
+//         path: "card",
+//         element: Card,
+//       }
+//     ]
+//   },
+// ]);
+
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <RouterProvider router={router} />
+//   </StrictMode>,
+// )
+
