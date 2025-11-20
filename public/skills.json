@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Artificial Intelligence",
+    "image": "/images/ai.png",
+    "tagline": "Future of smart automation",
+    "paragraph": "Artificial Intelligence allows computers to learn, reason, and perform tasks that typically require human intelligence.",
+    "rating": 4.9,
+    "buy" : "$1000"
+  },
+  {
+    "id": 2,
+    "title": "Data Analysis",
+    "image": "/images/data-analysis.png",
+    "tagline": "Turn data into decisions",
+    "paragraph": "Data Analysis helps you interpret raw data, identify patterns, and make informed decisions for business and technology.",
+    "rating": 4.8,
+    "buy" : "$950"
+  },
+  {
+    "id": 3,
+    "title": "Data Science",
+    "image": "/images/data-science.png",
+    "tagline": "Transform data into insights",
+    "paragraph": "Data Science combines statistics, programming, and algorithms to extract meaningful insights from large datasets.",
+    "rating": 4.9,
+    "buy" : "$800"
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity",
+    "image": "/images/cybersecurity.png",
+    "tagline": "Protect the digital world",
+    "paragraph": "Cybersecurity focuses on protecting systems, networks, and data from hackers and cyber threats.",
+    "rating": 4.7,
+    "buy" : "$850"
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing",
+    "image": "/images/cloud.png",
+    "tagline": "Build and scale online",
+    "paragraph": "Cloud Computing delivers computing services like servers, storage, and databases over the internet.",
+    "rating": 4.8,
+    "buy" : "$700"
+  },
+  {
+    "id": 6,
+    "title": "Coding / Programming",
+    "image": "/images/coding.png",
+    "tagline": "Build anything with code",
+    "paragraph": "Programming is the skill of writing instructions for computers to create software, apps, and digital solutions.",
+    "rating": 5.0,
+    "buy" : "$500"
+  },
+  {
+    "id": 7,
+    "title": "UI/UX Design",
+    "image": "/images/uiux.png",
+    "tagline": "Create beautiful user experiences",
+    "paragraph": "UI/UX Design focuses on making digital products visually appealing, user-friendly, and smooth to use.",
+    "rating": 4.6,
+    "buy" : "$550"
+  },
+  {
+    "id": 8,
+    "title": "Soft Skills",
+    "image": "/images/soft-skills.png",
+    "tagline": "The power of communication",
+    "paragraph": "Soft skills include communication, teamwork, problem-solving, and leadership — essential for every career.",
+    "rating": 4.9,
+    "buy" : "$400"
+  },
+  {
+    "id": 9,
+    "title": "Generative AI",
+    "image": "/images/gen-ai.png",
+    "tagline": "Create content with AI",
+    "paragraph": "Generative AI produces text, images, audio, and more using intelligent algorithms and large datasets.",
+    "rating": 5.0,
+    "buy" : "$500"
+  },
+  {
+    "id": 10,
+    "title": "Digital Marketing",
+    "image": "/images/digital-marketing.png",
+    "tagline": "Reach people online",
+    "paragraph": "Digital Marketing helps businesses grow through SEO, social media, content marketing, and ads.",
+    "rating": 4.7,
+    "buy" : "$300"
+  },
+  {
+    "id": 11,
+    "title": "Financial Literacy",
+    "image": "/images/finance.png",
+    "tagline": "Manage money smartly",
+    "paragraph": "Financial literacy teaches budgeting, investing, saving, and planning for a secure financial future.",
+    "rating": 4.8,
+    "buy" : "$250"
+  },
+  {
+    "id": 12,
+    "title": "Web UI & Backend Development",
+    "image": "/images/web-backend.png",
+    "tagline": "Build full-stack web apps",
+    "paragraph": "Web UI and Backend skills allow you to create complete web applications — from frontend design to backend logic.",
+    "rating": 5.0,
+    "buy" : "$200"
+  }
+]

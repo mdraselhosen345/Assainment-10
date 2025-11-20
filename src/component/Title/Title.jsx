@@ -9,17 +9,17 @@ const Title = () => {
       <div className=' h-[150px] mx-auto w-[1200px] '>
             <div className='flex justify-center '>
                 <div className='w-[300px] h-[150px] bg-[#000A30] flex justify-center items-center  hover:scale-105'>
-                    <IoLogoPython size={60}/>
+                    <IoLogoPython className='text-[#F5B027]'  size={80}/>
                 </div> 
                     <div className='w-[300px] h-[150px] bg-[#003757] flex justify-center items-center hover:scale-105'>
-                       <FaSquareJs size={60}/>
+                       <FaSquareJs className='text-[#F54927]' size={80}/>
         
                     </div>
                        <div className='w-[300px] bg-[#000A30] h-[150px] flex justify-center items-center hover:scale-105'>
-                           <FaJava size={60}/>
+                           <FaJava className='text-[#F5B027]' size={80}/>
                         </div> 
                        <div className='w-[300px] h-[150px] bg-[#003757] flex justify-center items-center hover:scale-105'>
-                            <FaReact size={60}/>   
+                            <FaReact className='text-[#F54927]' size={80}/>   
                       </div>
             </div>
       </div>
