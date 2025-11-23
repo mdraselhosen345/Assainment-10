@@ -4,6 +4,7 @@ import Title from '../Title/Title';
 import Card from '../Card/Card';
 import Login from '../Login.jsx/Login';
 import Dashboard from '../Dashboard/Dashboard';
+import Portfolio from '../Portfolio/Portfolio'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Dashboard></Dashboard>
             <Card></Card>
             <Login></Login>
+            <Portfolio></Portfolio>
         </div>
     );
 };

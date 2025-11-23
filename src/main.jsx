@@ -12,7 +12,7 @@ import Home from './component/Home.jsx/Home.jsx';
 import ErrorPage from './component/ErrorPage/ErrorPage.jsx';
 import Login from './component/Login.jsx/Login.jsx';
 import Dashboard from './component/Dashboard/Dashboard.jsx';
-
+import Portfolio from './component/Portfolio/Portfolio.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -42,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "Dashboard",
         element: <Dashboard />
+      },
+      {
+        path: "portfolio",
+        element: <Portfolio />
       }
     ]
   },

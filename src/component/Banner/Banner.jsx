@@ -3,7 +3,7 @@ import BannerPng from "../../assets/banner.jpg"
 import manPng from "../../assets/man (2).png"
 import viewPng from "../../assets/view.jpg"
 import honnerPng1 from "../../assets/hands (2).jpg"
-
+import { Link, NavLink } from "react-router-dom";
 
 const Banner = () => {
    useEffect(() => {
@@ -18,6 +18,8 @@ const Banner = () => {
       return() => clearInterval(interval);
    },[]);
     return (
+      
+
        <div className='relative overflow-hidden w-full h-[500px]'>
                 <div className='relative'>
                      <div className='absolute'>
@@ -30,7 +32,9 @@ const Banner = () => {
                                                               <br/>Modi beatae eligendi eos unde, exercitationem fugit 
                                                                </p>
                                  <div>
+                                     <Link to="/Login">
                                      <button className="btn bg-[#FF6C36] font-bold text-[#4b4848] mt-10 mr-60 pb-2 pt-1 pl-13 pr-13 rounded-tl-3xl rounded-br-3xl text-xl hover:bg-transparent hover:border-white hover:text-white">Login</button>
+                                     </Link>
                                  </div>
                        </div>
                         <div className='flex transition-transform duration-700' id='slider'>             
