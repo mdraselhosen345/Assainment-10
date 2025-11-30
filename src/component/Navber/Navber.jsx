@@ -1,7 +1,13 @@
+import { signInWithPopup } from 'firebase/auth';
 import React from 'react';
 import { Link, NavLink } from "react-router-dom";
+import { auth, provider } from '../../Firebase/Firebase.init';
 const Navber = () => {
-   
+   const handleGoogleSignIN = () => {
+    signInWithPopup(auth, provider)
+       .then(result => console.log(result))
+       .catch(err => console.log(err));
+   }
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -19,12 +25,12 @@ const Navber = () => {
       <li><NavLink to="/Title">Skills</NavLink></li>
       <li><NavLink to="/Dashboard">Development</NavLink></li>
       <li><NavLink to="/Card">Card</NavLink></li>
-      <li><a>portfolio</a></li>
+      <li><NavLink to="/Portfolio">Portfolio</NavLink></li>
     </ul>
   </div>
   <div className="navbar-end">
     <Link to="/Login">
-    <button className="btn bg-[#FF6C36] font-bold text-[#4b4848] pb-2 pt-1 pl-13 pr-13 rounded-tl-3xl rounded-br-3xl text-xl hover:bg-transparent hover:border-white hover:text-white">Login</button>
+    <button onClick={handleGoogleSignIN} className="btn bg-[#FF6C36] font-bold text-[#4b4848] pb-2 pt-1 pl-13 pr-13 rounded-tl-3xl rounded-br-3xl text-xl hover:bg-transparent hover:border-white hover:text-white">Login</button>
     </Link>
   </div>
 </div>

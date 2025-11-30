@@ -13,6 +13,9 @@ import ErrorPage from './component/ErrorPage/ErrorPage.jsx';
 import Login from './component/Login.jsx/Login.jsx';
 import Dashboard from './component/Dashboard/Dashboard.jsx';
 import Portfolio from './component/Portfolio/Portfolio.jsx'
+import Registration from './component/Registration/Registration.jsx';
+import Details from './component/Details/Details.jsx';
+import Returns from './component/Returns/Returns.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,6 +49,17 @@ const router = createBrowserRouter([
       {
         path: "portfolio",
         element: <Portfolio />
+      },
+      {
+        path: "Registration",
+        element: <Registration />
+      },{
+        path: "Details",
+        element: <Details />,
+      },
+      {
+        path: "Returns",
+        element: <Returns />,
       }
     ]
   },
