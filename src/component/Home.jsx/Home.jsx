@@ -19,7 +19,7 @@ const Home = () => {
             <Login></Login>
             {/* <Registration></Registration> */}
             <Portfolio></Portfolio>
-             <Details></Details> 
+              {/* <Details></Details>   */}
              {/* <Returns></Returns> */}
         </div>
     );

@@ -9,17 +9,17 @@ const Title = () => {
       <div className=' h-[150px] mx-auto w-[1200px] '>
             <div className='flex justify-center '>
                 <div className='w-[300px] h-[150px] bg-[#000A30] flex justify-center items-center  hover:scale-105'>
-                    <IoLogoPython className='text-[#F5B027]'  size={80}/>
+                    <a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank"><IoLogoPython className='text-[#F5B027]'  size={80}/></a>
                 </div> 
                     <div className='w-[300px] h-[150px] bg-[#003757] flex justify-center items-center hover:scale-105'>
-                       <FaSquareJs className='text-[#F54927]' size={80}/>
+                       <a href="https://www.programiz.com/javascript/online-compiler/" target="_blank"><FaSquareJs className='text-[#F54927]' size={80}/></a>
         
                     </div>
                        <div className='w-[300px] bg-[#000A30] h-[150px] flex justify-center items-center hover:scale-105'>
-                           <FaJava className='text-[#F5B027]' size={80}/>
+                           <a href="https://www.programiz.com/javascript/online-compiler/" target="_blank"><FaJava className='text-[#F5B027]' size={80}/></a>
                         </div> 
                        <div className='w-[300px] h-[150px] bg-[#003757] flex justify-center items-center hover:scale-105'>
-                            <FaReact className='text-[#F54927]' size={80}/>   
+                            <a href="https://www.programiz.com/javascript/online-compiler/" target="_blank"><FaReact className='text-[#F54927]' size={80}/> </a>  
                       </div>
             </div>
       </div>

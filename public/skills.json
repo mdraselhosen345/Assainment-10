@@ -1,110 +1,364 @@
 [
   {
     "id": 1,
-    "title": "Artificial Intelligence",
-    "image": "/images/ai.png",
-    "tagline": "Future of smart automation",
-    "paragraph": "Artificial Intelligence allows computers to learn, reason, and perform tasks that typically require human intelligence.",
-    "rating": 4.9,
-    "buy" : "$1000"
+    "title": "React for Beginners",
+    "paragraph": "Learn React step by step.",
+    "tagline": "Start your journey",
+    "rating": 4.5,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Carl Ripon",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 16,
+    "price": 8,
+    "cents": 36,
+    "features": [
+      "Unlock powerful performance gains with React server components.",
+      "Manage forms, state, and data fetching with modern tools.",
+      "Build reusable, scalable components using React patterns."
+    ],
+    "description": "Learn React with TypeScript and Next.js to build scalable apps.",
+    "formats": [
+      { "name": "Kindle", "price": 31.19, "available": true },
+      { "name": "Paperback", "price": 39.99, "available": false }
+    ],
+    "shipping": 249.62,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4", "Quality 5"]
   },
   {
     "id": 2,
-    "title": "Data Analysis",
-    "image": "/images/data-analysis.png",
-    "tagline": "Turn data into decisions",
-    "paragraph": "Data Analysis helps you interpret raw data, identify patterns, and make informed decisions for business and technology.",
+    "title": "Advanced React",
+    "paragraph": "Deep dive into React.",
+    "tagline": "Level up your skills",
     "rating": 4.8,
-    "buy" : "$950"
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Jane Doe",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 10,
+    "price": 15,
+    "cents": 99,
+    "features": [
+      "Advanced state management with Redux.",
+      "Performance optimization techniques.",
+      "Server-side rendering with Next.js."
+    ],
+    "description": "Master advanced React concepts and patterns.",
+    "formats": [
+      { "name": "Kindle", "price": 25.19, "available": true },
+      { "name": "Paperback", "price": 45.99, "available": true }
+    ],
+    "shipping": 199.99,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3"]
   },
   {
     "id": 3,
-    "title": "Data Science",
-    "image": "/images/data-science.png",
-    "tagline": "Transform data into insights",
-    "paragraph": "Data Science combines statistics, programming, and algorithms to extract meaningful insights from large datasets.",
-    "rating": 4.9,
-    "buy" : "$800"
+    "title": "React Hooks in Depth",
+    "paragraph": "Understand hooks fully.",
+    "tagline": "Hooks made easy",
+    "rating": 4.6,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Alice Smith",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 12,
+    "price": 12,
+    "cents": 49,
+    "features": [
+      "Master useState and useEffect.",
+      "Custom hooks for reusable logic.",
+      "Optimize rendering performance."
+    ],
+    "description": "A complete guide to React Hooks for modern apps.",
+    "formats": [
+      { "name": "Kindle", "price": 28.99, "available": true },
+      { "name": "Paperback", "price": 37.99, "available": true }
+    ],
+    "shipping": 180.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4"]
   },
   {
     "id": 4,
-    "title": "Cybersecurity",
-    "image": "/images/cybersecurity.png",
-    "tagline": "Protect the digital world",
-    "paragraph": "Cybersecurity focuses on protecting systems, networks, and data from hackers and cyber threats.",
+    "title": "Next.js for React Developers",
+    "paragraph": "Build server-side apps.",
+    "tagline": "Next.js simplified",
     "rating": 4.7,
-    "buy" : "$850"
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Mark Johnson",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 15,
+    "price": 18,
+    "cents": 75,
+    "features": [
+      "Server-side rendering explained.",
+      "Static site generation techniques.",
+      "API routes and middleware usage."
+    ],
+    "description": "Learn Next.js to build scalable, server-rendered React apps.",
+    "formats": [
+      { "name": "Kindle", "price": 29.99, "available": true },
+      { "name": "Paperback", "price": 42.99, "available": true }
+    ],
+    "shipping": 210.5,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4", "Quality 5"]
   },
   {
     "id": 5,
-    "title": "Cloud Computing",
-    "image": "/images/cloud.png",
-    "tagline": "Build and scale online",
-    "paragraph": "Cloud Computing delivers computing services like servers, storage, and databases over the internet.",
-    "rating": 4.8,
-    "buy" : "$700"
+    "title": "React Patterns",
+    "paragraph": "Reusable patterns in React.",
+    "tagline": "Code smarter",
+    "rating": 4.4,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+    ],
+    "author": "Emily Clark",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 20,
+    "price": 10,
+    "cents": 0,
+    "features": [
+      "Container and presentational components.",
+      "Higher-order components (HOCs).",
+      "Render props patterns."
+    ],
+    "description": "Improve your React code with best patterns.",
+    "formats": [
+      { "name": "Kindle", "price": 26.99, "available": true },
+      { "name": "Paperback", "price": 38.99, "available": false }
+    ],
+    "shipping": 175.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3"]
   },
   {
     "id": 6,
-    "title": "Coding / Programming",
-    "image": "/images/coding.png",
-    "tagline": "Build anything with code",
-    "paragraph": "Programming is the skill of writing instructions for computers to create software, apps, and digital solutions.",
-    "rating": 5.0,
-    "buy" : "$500"
+    "title": "React with TypeScript",
+    "paragraph": "Type-safe React apps.",
+    "tagline": "Code with confidence",
+    "rating": 4.9,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Robert Lee",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 18,
+    "price": 20,
+    "cents": 49,
+    "features": [
+      "TypeScript basics for React.",
+      "Strict typing for components and props.",
+      "Error handling with TypeScript."
+    ],
+    "description": "Create robust React apps with TypeScript.",
+    "formats": [
+      { "name": "Kindle", "price": 30.99, "available": true },
+      { "name": "Paperback", "price": 44.99, "available": true }
+    ],
+    "shipping": 230.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4"]
   },
   {
     "id": 7,
-    "title": "UI/UX Design",
-    "image": "/images/uiux.png",
-    "tagline": "Create beautiful user experiences",
-    "paragraph": "UI/UX Design focuses on making digital products visually appealing, user-friendly, and smooth to use.",
-    "rating": 4.6,
-    "buy" : "$550"
+    "title": "React and Redux",
+    "paragraph": "State management mastery.",
+    "tagline": "Manage state efficiently",
+    "rating": 4.5,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+    ],
+    "author": "Laura White",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 12,
+    "price": 14,
+    "cents": 99,
+    "features": [
+      "Learn Redux from scratch.",
+      "Connect Redux with React components.",
+      "Middleware and async actions."
+    ],
+    "description": "A guide to managing complex app states with Redux.",
+    "formats": [
+      { "name": "Kindle", "price": 27.99, "available": true },
+      { "name": "Paperback", "price": 39.99, "available": true }
+    ],
+    "shipping": 195.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3"]
   },
   {
     "id": 8,
-    "title": "Soft Skills",
-    "image": "/images/soft-skills.png",
-    "tagline": "The power of communication",
-    "paragraph": "Soft skills include communication, teamwork, problem-solving, and leadership — essential for every career.",
-    "rating": 4.9,
-    "buy" : "$400"
+    "title": "React Performance Optimization",
+    "paragraph": "Make React apps faster.",
+    "tagline": "Speed matters",
+    "rating": 4.6,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Kevin Brown",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 15,
+    "price": 16,
+    "cents": 50,
+    "features": [
+      "Optimize component rendering.",
+      "Memoization and lazy loading.",
+      "Performance measurement tools."
+    ],
+    "description": "Techniques to speed up React applications.",
+    "formats": [
+      { "name": "Kindle", "price": 28.49, "available": true },
+      { "name": "Paperback", "price": 41.99, "available": true }
+    ],
+    "shipping": 205.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4"]
   },
   {
     "id": 9,
-    "title": "Generative AI",
-    "image": "/images/gen-ai.png",
-    "tagline": "Create content with AI",
-    "paragraph": "Generative AI produces text, images, audio, and more using intelligent algorithms and large datasets.",
-    "rating": 5.0,
-    "buy" : "$500"
+    "title": "React Testing",
+    "paragraph": "Test your React apps.",
+    "tagline": "Reliable code",
+    "rating": 4.7,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+    ],
+    "author": "Nancy Green",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 10,
+    "price": 13,
+    "cents": 75,
+    "features": [
+      "Unit testing with Jest.",
+      "Component testing with React Testing Library.",
+      "End-to-end testing setup."
+    ],
+    "description": "Ensure your React apps are bug-free with proper testing.",
+    "formats": [
+      { "name": "Kindle", "price": 26.0, "available": true },
+      { "name": "Paperback", "price": 38.0, "available": true }
+    ],
+    "shipping": 190.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3"]
   },
   {
     "id": 10,
-    "title": "Digital Marketing",
-    "image": "/images/digital-marketing.png",
-    "tagline": "Reach people online",
-    "paragraph": "Digital Marketing helps businesses grow through SEO, social media, content marketing, and ads.",
-    "rating": 4.7,
-    "buy" : "$300"
+    "title": "React Native for Mobile",
+    "paragraph": "Build mobile apps with React.",
+    "tagline": "Mobile made easy",
+    "rating": 4.8,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Tom Harris",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 17,
+    "price": 19,
+    "cents": 99,
+    "features": [
+      "Cross-platform mobile development.",
+      "Navigation and UI components.",
+      "Integrate with native APIs."
+    ],
+    "description": "Create iOS and Android apps using React Native.",
+    "formats": [
+      { "name": "Kindle", "price": 29.99, "available": true },
+      { "name": "Paperback", "price": 43.99, "available": true }
+    ],
+    "shipping": 220.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4"]
   },
   {
     "id": 11,
-    "title": "Financial Literacy",
-    "image": "/images/finance.png",
-    "tagline": "Manage money smartly",
-    "paragraph": "Financial literacy teaches budgeting, investing, saving, and planning for a secure financial future.",
-    "rating": 4.8,
-    "buy" : "$250"
+    "title": "Fullstack React",
+    "paragraph": "React with backend integration.",
+    "tagline": "End-to-end development",
+    "rating": 4.9,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+    ],
+    "author": "Olivia Martin",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 14,
+    "price": 21,
+    "cents": 49,
+    "features": [
+      "Integrate React with Node.js.",
+      "REST and GraphQL APIs.",
+      "Fullstack project examples."
+    ],
+    "description": "Build fullstack applications with React and backend services.",
+    "formats": [
+      { "name": "Kindle", "price": 32.99, "available": true },
+      { "name": "Paperback", "price": 46.99, "available": true }
+    ],
+    "shipping": 240.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4", "Quality 5"]
   },
   {
     "id": 12,
-    "title": "Web UI & Backend Development",
-    "image": "/images/web-backend.png",
-    "tagline": "Build full-stack web apps",
-    "paragraph": "Web UI and Backend skills allow you to create complete web applications — from frontend design to backend logic.",
-    "rating": 5.0,
-    "buy" : "$200"
+    "title": "React UI/UX Design",
+    "paragraph": "Design beautiful React apps.",
+    "tagline": "Design matters",
+    "rating": 4.6,
+    "buy": "Buy Now",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "thumbnails": [
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+    ],
+    "author": "Sophia Turner",
+    "authorImage": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+    "discount": 13,
+    "price": 17,
+    "cents": 25,
+    "features": [
+      "Responsive UI design with React.",
+      "Accessibility best practices.",
+      "Component libraries and design systems."
+    ],
+    "description": "Learn how to make visually appealing and accessible React apps.",
+    "formats": [
+      { "name": "Kindle", "price": 27.49, "available": true },
+      { "name": "Paperback", "price": 40.99, "available": true }
+    ],
+    "shipping": 200.0,
+    "qualities": ["Quality 1", "Quality 2", "Quality 3", "Quality 4"]
   }
 ]

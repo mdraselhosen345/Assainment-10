@@ -3,7 +3,6 @@ import { signInWithPopup, signOut } from 'firebase/auth';
 import { FaUserLock } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { auth, provider } from "../../Firebase/Firebase.init";
-import { GoogleAuthProvider } from "firebase/auth";
 import { Link } from "react-router-dom";
 
 const Login = () => {

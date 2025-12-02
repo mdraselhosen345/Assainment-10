@@ -14,8 +14,9 @@ import Login from './component/Login.jsx/Login.jsx';
 import Dashboard from './component/Dashboard/Dashboard.jsx';
 import Portfolio from './component/Portfolio/Portfolio.jsx'
 import Registration from './component/Registration/Registration.jsx';
-import Details from './component/Details/Details.jsx';
+// import Details from './component/Details/Details.jsx';
 import Returns from './component/Returns/Returns.jsx';
+import Details from './component/Details/Details.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -53,9 +54,10 @@ const router = createBrowserRouter([
       {
         path: "Registration",
         element: <Registration />
-      },{
-        path: "Details",
-        element: <Details />,
+      },
+      {
+        path: "/details/:id",
+        element: <Details />
       },
       {
         path: "Returns",
